@@ -1,0 +1,56 @@
+
+    /*Reset Css */
+    *,
+    body {
+      margin: 0;
+      padding: 0;
+      outline: 0;
+      border: none;
+      font-size: 100%;
+      line-height: 1;
+      font-family: sans-serif;
+      box-sizing: border-box;
+      color: #000000;
+      text-decoration: none;
+      list-style-type: none;
+    }
+
+    @media (min-width: 576px) {
+      .jumbotron {
+        padding: 1rem 2rem;
+      }
+    }
+    .errdiv {
+      color: red;
+      font-weight: bold;
+    }
+
+    label {
+      margin-bottom: 5px;
+      margin-top: 10px;
+    }
+
+    .tdaction {
+      width: 15%;
+    }
+
+    .tdSr {
+      width: 7%;
+    }
+
+    .jumbotron {
+      margin-bottom: 0.5rem;
+    }
+
+    strong {
+      font-size: 24px !important;
+    }
+
+    input.largerCheckbox {
+      width: 20px;
+      height: 20px;
+    }
+
+    #gfg {
+      margin-top: 10px;
+    }
